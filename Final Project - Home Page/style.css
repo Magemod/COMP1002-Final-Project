@@ -1,0 +1,109 @@
+/* CSS for the Homepage of the website */
+
+/*CSS to apply to entire sheet*/
+*{
+    background-color: #e5f3fd;
+}
+
+/* The characteristics i would like to apply to the entire body section*/
+body {
+    font-family:'Segoe UI' ;
+    color:#141414;
+    line-height: 1.6;
+    text-align: center;
+    padding:0rem; 
+}
+
+
+/* Navigation Bar CSS */
+.navcontainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* Above the Fold - Homepage */
+#af1,#af2
+{
+    border-style: solid;
+    border-color: #e5f3fd;
+}
+
+/* The CSS for the picture of the motorbike and japanese text and logo above the fold */
+.container{
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+}
+
+
+/* Body of Homepage */
+
+.header{
+    display: flex;
+    align-content: flex-start;
+}
+
+/* Picture alignment*/
+    #pictore1,#pictore2,#pictore3,#pictore4,#pictore5{
+        border-style: solid;
+        border-color: #e5f3fd;
+    }
+
+    #pictore2{
+        max-height: 300px;
+    }
+
+    #pictore3{
+        max-height: 200px;
+    }
+
+    .gallery1{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        line-height: normal;
+    }
+
+    .gallery2{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        line-height: normal;
+    }
+
+    .gallery3{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .gallery4{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .gallery5{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .gallery6{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .gallery7{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+/* Conclusion of Homepage */
+
+
+
+/* Footer */
