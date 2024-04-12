@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="cpage.styles.css">  
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--DISCLAIMER: A decent portion of this code was made using the example code provided by https://www.w3schools.com/howto/howto_css_contact_form.asp. I have commented throughout to specify which parts of the code were done by me. Assume that any part of the code not explicitly stated to be my work, is in fact, not my work.-->
+
+<!-- The navigation bar of the webpage -->
+
+<div class="navcontainer">
+  <img style="max-width: 50px; max-height: 40px;" src="logo.jpg" alt="Honda sub logo"> 
+
+  <p> &nbsp; About Us &nbsp; </p>
+  <p> Learn More &nbsp; </p>
+  <p> Contact &nbsp; </p>
+</div>    
+
+<!--The line of the code underneath intended to allow for the 4 sections of the contact form to be styled using CSS Flexbox has been coded by me.-->
+    <div class="menuitems">
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">I am reaching out because....</label>
+          <select id="country" name="country">
+            <option value="australia">I want more information on The Cub EZ90</option>
+            <option value="canada">I want to buy The Cub EZ90 Motorcycle</option>
+            <option value="usa">Other</option>
+          </select>
+      
+          <label for="subject">Explain</label>
+          <textarea id="subject" name="subject" placeholder="Tell us more, and leave us information so that we can get back to you!" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    </div>
+
+
+
+</body>
+</html>
